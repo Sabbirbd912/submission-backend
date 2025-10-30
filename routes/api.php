@@ -11,4 +11,4 @@ Route::get('/user', function (Request $request) {
 Route::apiResource('submissions', SubmissionController::class);
 
 // Route::get('submissions', [SubmissionController::class, 'index']);
-// Route::post('/ubmissions', [SubmissionController::class, 'store']);
+// Route::post('submissions', [SubmissionController::class, 'store']);
