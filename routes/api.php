@@ -9,3 +9,6 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::apiResource('submissions', SubmissionController::class);
+
+// Route::get('submissions', [SubmissionController::class, 'index']);
+// Route::post('/ubmissions', [SubmissionController::class, 'store']);
